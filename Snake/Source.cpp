@@ -5,7 +5,7 @@ int main()
 	Game game;
 	while (!game.GetWindow()->isDone())
 	{
-		//game.HandleInput();
+		game.HandleInput();
 		game.Update();
 		game.Render();
 		game.RestartClock();
