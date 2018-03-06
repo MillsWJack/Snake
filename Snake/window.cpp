@@ -30,7 +30,7 @@ void window::Update()
 	sf::Event event;
 	while (m_window.pollEvent(event))
 	{
-		if (event.type == sf::Event::Closed)
+		if (event.type == sf::Event::Closed || event.key.code == sf::Keyboard::Escape)
 		{
 			m_isDone = true;
 		}

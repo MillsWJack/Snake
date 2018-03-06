@@ -15,6 +15,7 @@ public:
 
 	bool isDone() { return m_isDone; }
 	bool isFullscreen() { return m_isFullscreen; }
+	sf::RenderWindow* GetRenderWindow(){ return &m_window; }
 	sf::Vector2u GetWindowSize() { return m_windowSize; }
 
 	void ToggleFullScreen();

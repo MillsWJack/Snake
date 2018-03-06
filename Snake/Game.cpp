@@ -17,6 +17,6 @@ void Game::Update()
 void Game::Render()
 {
 	m_window.BeginDraw();		//clear screen
-	//m_window.Draw();	//draw drawable
+	//draw drawable
 	m_window.EndDraw();			//display
 }

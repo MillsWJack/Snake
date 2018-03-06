@@ -1,6 +1,7 @@
 #pragma once
 
 #include "window.h"
+#include "Snake.h"
 
 class Game
 {
@@ -18,7 +19,6 @@ public:
 
 private:
 	window m_window;
-
 	sf::Clock m_clock;
 	sf::Time m_elapsed;
 };
