@@ -13,6 +13,7 @@ Game::~Game()
 
 void Game::HandleInput()
 {
+	//Causes potential bug where direction is being changed to an invalid value
 	if (sf::Keyboard::isKeyPressed(sf::Keyboard::Up) &&
 		m_snake.GetDirection() != Direction::Down)
 	{
